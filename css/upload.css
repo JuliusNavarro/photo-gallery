@@ -1,0 +1,20 @@
+h1 {
+	font-size: 35px;
+	text-align: center;
+	font-family: sans;
+	color: black;
+	margin-top: 70px; 
+}
+
+form {
+	border: 2px solid black;
+	width: 500px;
+	padding: 30px; 
+	margin: 0 auto;
+	text-align: center;
+	line-height: 20px;
+}
+input {
+	margin: 0 auto;
+
+}
