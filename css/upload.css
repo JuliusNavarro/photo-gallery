@@ -1,13 +1,21 @@
+body {
+	padding: 70px;
+	background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 h1 {
 	font-size: 35px;
 	text-align: center;
 	font-family: sans;
 	color: black;
-	margin-top: 70px; 
+	margin-top: 20px; 
 }
 
 form {
 	border: 2px solid black;
+	background: rgb(216, 192, 192);
 	width: 500px;
 	padding: 30px; 
 	margin: 0 auto;
@@ -16,5 +24,27 @@ form {
 }
 input {
 	margin: 0 auto;
-
 }
+
+.button {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 15px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: lightgrey;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #929b92}
+  
+  .button:active {
+	background-color: #929b92;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
